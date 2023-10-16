@@ -1,0 +1,53 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+/* Diğer stil kuralları */
+.beverages{
+  height: 528px;
+  
+}
+.swiper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 33.33%;
+  padding: 0 10px;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+
+.slide img {
+  width: 80px;
+  height: 150px;
+}
+.slick-next {
+  right: 0;
+}
+.price{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+  color: #fff;
+  padding: 10px 5px 10px 5px;
+  width: 15%;
+  text-align: center;
+  border-radius: 100px;
+  background-color: #16A036;
+  display: block;
+  position: relative;
+  top: -30px;
+  left: -15px;
+}
